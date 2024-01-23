@@ -1,0 +1,81 @@
+/* font */
+.font-poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.font-archivo {
+    font-family: 'Archivo', sans-serif !important;
+}
+
+/* Gradient Body Landingpage */
+.landingpage {
+    background: rgb(172,203,238);
+    background: linear-gradient(90deg, rgba(172,203,238,1) 0%, rgba(231,240,253,1) 35%, rgba(177,201,239,1) 100%);
+    background-size: 200%;
+    animation: gradient-landingpage 15s infinite alternate;
+}
+
+@keyframes gradient-landingpage {
+    0% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
+    
+}
+
+/* navbar */
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+    color: #638ecb;
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: auto;
+}
+
+/* About */
+#about {
+    padding-top: 100px;
+    background-color: #d5deef;
+}
+
+/* jumbotron */
+.jumbotron {
+    padding-top: 15rem;
+    position: relative;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    padding: 0;
+    background-color: #d5deef;
+}
+
+.footer .social {
+    text-align: center;
+    color: #4b4c4d;
+    padding-bottom: 10px;
+}
+
+.footer .social a {
+    font: 20px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.90;
+}
+
+.footer .social a:hover {
+    opacity: 0.4;
+}
